@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+</head>
+<style>
+    *{
+        padding: 0px;
+        margin:0px;
+    }
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    margin: 24px;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+.display{
+    margin: 25px 0;
+    height:380px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+background-image: url('showcase.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding-bottom: 70px;
+text-align: center;
+}
+.logo{
+    /* margin-right: 22px; */
+    margin-left: 22px;
+}
+.btn1{
+    color:white;
+    background-color: black;
+    border:none;
+    padding:10px 20px;
+margin-top: 24px;
+}
+.btn1:hover{
+    opacity:0.5;
+    cursor: pointer;
+
+}
+
+.btn2{
+    text-align: center;
+    margin-top: 24px;
+color: white;
+background-color: black;
+padding: 5px;
+justify-content: center;
+border-radius: 50%;
+}
+.btn2:hover{
+    color:black;
+}
+.btn3{
+    text-align: center;
+    margin-top: 38px;
+color: white;
+background-color: black;
+padding: 5px;
+justify-content: center;
+border-radius: 50%;
+}
+.btn3:hover{
+    color:black;
+}
+.display2{
+    float: left;
+    display: flex;
+margin-left: 25px;
+
+}
+.ply{
+    /* margin-left: 15px; */
+    margin-right: 14px;
+}
+body{
+    margin-right: 5px;
+}
+.x-box{
+    background-image: url('xbox.png');
+    background-repeat: no-repeat;
+height:350px;
+margin-top: 400px;
+background-size: cover;
+align-items: end;
+}
+.box{
+    margin-top: 25px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+}
+.nature{
+    background-image: url(nature.jpg);
+    background-size: cover;
+    height:370px;
+    color: white;
+    margin-top: 30px;
+margin-bottom: 20px;
+}
+.man{
+    margin-top: 20px;
+    background-color:black;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+}
+.foot{
+    background-color:black;
+color: white;
+margin-left: 2px;
+margin-bottom: 20px;
+float: left;
+height:230px;
+}
+.doreamon {
+    filter :drop-shadow(1px 1px 20px yellow);
+}
+</style>
+<body>
+    <main>
+        <header>
+            <div class = "nav">
+<div class="logo">
+<img src="logo.png"width="70px">
+</div>
+
+<nav>
+    <a href="">Home</a>
+    <a href="">About</a>
+    <a href="">Product</a>
+    <a href="">Contact</a>
+    <a href="">Location</a>
+
+</nav>
+            </div>
+        </header>
+        <section class="display">
+        <div class="navbar">
+<h3>Surface Deals</h3>
+<p> Select Surfaces are on sale now - save while supplies last </p>
+<button class ="btn1">Click here</button>
+        </div>    
+        </section>
+
+        <section class="display2">
+
+            <div class="ply">
+    <img src="pc.png"style="height:160px;">
+<h3 style="margin-top: 24px;">Choose the best laptops in heavy  discount</h3>
+<p>Let's celebrate dashain with this greatest deal !</p>
+
+<button class="btn2">click here</button>
+</div>
+
+<div class="ply">
+    <img src="board.png"style="height:160px;">
+<h3 style="margin-top: 24px;">Choose the best digital accessories in heavy  discount</h3>
+<p>Let's celebrate dashain with this greatest deal !</p>
+<button class="btn2">click here</button>
+</div>
+
+<div class="ply">
+    <img src="washingmachine.jpg" style="width: 270px;height: 160px;">
+<h3 style="margin-top: 24px;">Choose the best washing machine in heavy  discount</h3>
+<p>Let's celebrate dashain with this greatest deal !</p>
+<button class="btn2">click here</button>
+</div>
+
+<div class="ply">
+    <img src="vaccumcleaner.jpeg" style="width: 300px;height: 160px;margin-right: 24px;">
+<h3 style="margin-top: 24px;">Choose the best vaccum cleaner in heavy  discount</h3>
+<p>Let's celebrate dashain with this greatest deal !</p>
+<button class="btn3">click here</button>
+</div>
+</section>
+     
+<section class="x-box">
+    <div>
+<h1>Xbox Game Pass Ultimate</h1>
+<p>Xbox Game Pass Ultimate Xbox Live Gold and over 100 high-quality console and PC games. Play together with
+  friends and discover your next favorite </p>
+<button class="box">Click here</button>
+</div>  
+</section>
+
+<section class="nature">
+<div class="naturelover">
+<h1>Microsoft Hub</h1>
+<p>Grab the best offer in this dashain where you can grab lots of offer and you can also get the bumper cash price it is only validated for dashain so dont miss this opportunity and also the very vital thing is that top five lucky winners will get the chance to visit in switzerland </p>
+<button class="man">Explore here</button>
+</div>
+</section>
+    </main>
+<footer class="foot">
+    <div class="fav">
+    <h3>facebook link</h3>
+    <h3>E-Mail</h3>
+    <h3>Date</h3>
+    <h3>Address</h3>
+    <h3>Contact</h3>
+    <h3>Instagram</h3>
+    <h3>Google</h3>
+    <h3>Amazon</h3>
+
+ 
+</div>
+<img src="doreamon.pic"class="doreamon">
+</footer>
+</body>
+</html>
